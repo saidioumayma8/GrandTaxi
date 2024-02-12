@@ -29,7 +29,7 @@
                 <div class="uk-container">
                     <div class="page-header__inner">
                         <div class="page-header__logo">
-                            <div class="logo"><a class="logo__link" href="index.html"><img class="logo__img" src="assets/img/logo.png" alt="GetRider"></a></div>
+                            <div class="logo" style="width: 30%" ><a class="logo__link" href="index.html"><img class="logo__img" src="assets/img/logo.png" alt="MonGrandTaxi"></a></div>
                         </div>
                         <div class="page-header__menu">
                             <nav class="page-nav" data-uk-navbar="">
@@ -57,7 +57,7 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="page-header__phone"><a class="uk-button uk-button-danger" href="tel:3457008800"> <i class="flaticon-phone-call"></i><span>+345 700 8800</span></a></div>
+                        <div class="page-header__phone"><a class="uk-button uk-button-danger" href="tel:3457008800"> <i class="flaticon-phone-call"></i><span>+212 625 207 25</span></a></div>
                         <div class="page-header__btn"> <a class="uk-button uk-button-danger" href="#offcanvas" data-uk-toggle data-uk-icon="menu"></a></div>
                     </div>
                 </div>
@@ -154,70 +154,10 @@
                         </div>
                         <div class="section-content">
                             <div class="uk-grid uk-grid-medium uk-child-width-1-2@s uk-child-width-1-3@m" data-uk-grid>
+                                
                                 <div>
                                     <div class="driver-card">
-                                        <div class="driver-card__media"><img src="assets/img/car-1.jpg" alt="car"></div>
-                                        <div class="driver-card__body">
-                                            <div class="driver-card__user"> <img src="assets/img/driver-1.png" alt="driver-pic">
-                                                <span>Ben Strokes </span>
-
-
-                                            </div>
-                                            <div class="driver-card__info">
-                                                <div class="driver-card__date">Wed, 8 January<br> at 2:00 PM</div>
-                                                <div class="driver-card__price">For 1 Passenger <b>$19.50</b></div>
-                                            </div>
-                                            <div class="driver-card__services">
-                                                <ul>
-                                                    <li><img src="assets/img/driver-service-1.png" alt="driver-service"><span>Max. 2 passengers in back seats</span></li>
-                                                    <li><img src="assets/img/driver-service-2.png" alt="driver-service"><span>Pets are not allowed in the Car</span></li>
-                                                    <li><img src="assets/img/driver-service-3.png" alt="driver-service"><span>Smoking is not allowed</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="driver-card">
-                                        <div class="driver-card__media"><img src="assets/img/car-2.jpg" alt="car"></div>
-                                        <div class="driver-card__body">
-                                            <div class="driver-card__user"> <img src="assets/img/driver-2.png" alt="driver-pic"><span>Shane Michael</span></div>
-                                            <div class="driver-card__info">
-                                                <div class="driver-card__date">Wed, 8 January<br> at 2:00 PM</div>
-                                                <div class="driver-card__price">For 1 Passenger <b>$19.50</b></div>
-                                            </div>
-                                            <div class="driver-card__services">
-                                                <ul>
-                                                    <li><img src="assets/img/driver-service-1.png" alt="driver-service"><span>Max. 2 passengers in back seats</span></li>
-                                                    <li><img src="assets/img/driver-service-2.png" alt="driver-service"><span>Pets are not allowed in the Car</span></li>
-                                                    <li><img src="assets/img/driver-service-3.png" alt="driver-service"><span>Smoking is not allowed</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="driver-card">
-                                        <div class="driver-card__media"><img src="assets/img/car-3.jpg" alt="car"></div>
-                                        <div class="driver-card__body">
-                                            <div class="driver-card__user"> <img src="assets/img/driver-3.png" alt="driver-pic"><span>John Matthew</span></div>
-                                            <div class="driver-card__info">
-                                                <div class="driver-card__date">Wed, 8 January<br> at 2:00 PM</div>
-                                                <div class="driver-card__price">For 1 Passenger <b>$19.50</b></div>
-                                            </div>
-                                            <div class="driver-card__services">
-                                                <ul>
-                                                    <li><img src="assets/img/driver-service-1.png" alt="driver-service"><span>Max. 2 passengers in back seats</span></li>
-                                                    <li><img src="assets/img/driver-service-2.png" alt="driver-service"><span>Pets are not allowed in the Car</span></li>
-                                                    <li><img src="assets/img/driver-service-3.png" alt="driver-service"><span>Smoking is not allowed</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="driver-card">
-                                        <div class="driver-card__media"><img src="assets/img/car-4.jpg" alt="car"></div>
+                                        {{-- <div class="driver-card__media"><img src="assets/img/car-4.jpg" alt="car"></div> --}}
                                         <div class="driver-card__body">
                                             <div class="driver-card__user"> <img src="assets/img/driver-1.png" alt="driver-pic"><span>Ben Strokes</span></div>
                                             <div class="driver-card__info">
@@ -236,7 +176,7 @@
                                 </div>
                                 <div>
                                     <div class="driver-card">
-                                        <div class="driver-card__media"><img src="assets/img/car-5.jpg" alt="car"></div>
+                                        {{-- <div class="driver-card__media"><img src="assets/img/car-5.jpg" alt="car"></div> --}}
                                         <div class="driver-card__body">
                                             <div class="driver-card__user"> <img src="assets/img/driver-2.png" alt="driver-pic"><span>Shane Michael</span></div>
                                             <div class="driver-card__info">
@@ -255,7 +195,7 @@
                                 </div>
                                 <div>
                                     <div class="driver-card">
-                                        <div class="driver-card__media"><img src="assets/img/car-6.jpg" alt="car"></div>
+                                        {{-- <div class="driver-card__media"><img src="assets/img/car-6.jpg" alt="car"></div> --}}
                                         <div class="driver-card__body">
                                             <div class="driver-card__user"> <img src="assets/img/driver-3.png" alt="driver-pic"><span>John Matthew</span></div>
                                             <div class="driver-card__info">
@@ -321,96 +261,8 @@
                     </div>
                 </div>
             </div>
-            <div class="section-location">
-                <div class="uk-section uk-container">
-                    <div class="location">
-                        <div class="uk-grid uk-grid-small uk-child-width-1-2@m" data-uk-grid>
-                            <div>
-                                <div class="location__title">We Have Now <b>2000</b> Locations</div>
-                                <div class="location__text">Labore dolore magna aliqua ipsum veniam quis nostrud exercitation voluptate eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod.</div>
-                                <div class="uk-grid uk-child-width-1-2" data-uk-grid>
-                                    <div>
-                                        <div class="location-contact-item">
-                                            <div class="location-contact-item__icon"><i class="fas fa-phone-alt"></i></div>
-                                            <div class="location-contact-item__desc">
-                                                <div class="location-contact-item__title">For Booking Rides</div>
-                                                <div class="location-contact-item__phone"><a href="tel:5804037961">(580) 403 7961</a></div>
-                                                <div class="location-contact-item__time">We are available 24/7</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="location-contact-item">
-                                            <div class="location-contact-item__icon"><i class="fas fa-phone-alt"></i></div>
-                                            <div class="location-contact-item__desc">
-                                                <div class="location-contact-item__title">Got any questions?</div>
-                                                <div class="location-contact-item__phone"><a href="tel:4315292093">(431) 529 2093</a></div>
-                                                <div class="location-contact-item__time">We are available 24/7</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="location__map"><img class="location__img" src="assets/img/img-location-map.png" alt="img-location-map">
-                                    <ul class="location__numbers">
-                                        <li><span>1470</span><span>Rental Cars Fleet</span></li>
-                                        <li><span>265</span><span>5 Star Reviews</span></li>
-                                        <li><span>308</span><span>Rental Awards</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section-reviews">
-                <div class="uk-section uk-container">
-                    <div class="section-title uk-text-center">
-                        <div class="uk-h2">Customer Reviews</div>
-                    </div>
-                    <div class="section-content">
-                        <div class="reviews-slider">
-                            <div data-uk-slideshow="max-height: 270; min-height: 250; animation: scale">
-                                <div class="reviews-slider__users">
-                                    <ul>
-                                        <li class="uk-animation-scale-up" data-uk-slideshow-item="0"><img class="uk-width-1-1" src="assets/img/img-reviews.jpg" alt="img-reviews"></li>
-                                        <li class="uk-animation-scale-up" data-uk-slideshow-item="1"><img class="uk-width-1-1" src="assets/img/img-reviews.jpg" alt="img-reviews"></li>
-                                        <li class="uk-animation-scale-up" data-uk-slideshow-item="2"><img class="uk-width-1-1" src="assets/img/img-reviews.jpg" alt="img-reviews"></li>
-                                    </ul>
-                                </div>
-                                <div class="reviews-slider__content">
-                                    <div class="reviews-slider__box">
-                                        <ul class="uk-slideshow-items">
-                                            <li>
-                                                <div class="reviews-slider-item">
-                                                    <div class="reviews-slider-item__text">Norem ipsum dolor sit amet consectetur adipisicing elit quis nostrud exercita duis irure dolor rehenderit incidiun labore et dolore magna aliqua exercitation.</div>
-                                                    <div class="reviews-slider-item__user">Donald James</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="reviews-slider-item">
-                                                    <div class="reviews-slider-item__text">Norem ipsum dolor sit amet consectetur adipisicing elit quis nostrud exercita duis irure dolor rehenderit incidiun labore et dolore magna aliqua exercitation.</div>
-                                                    <div class="reviews-slider-item__user">Donald James</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="reviews-slider-item">
-                                                    <div class="reviews-slider-item__text">Norem ipsum dolor sit amet consectetur adipisicing elit quis nostrud exercita duis irure dolor rehenderit incidiun labore et dolore magna aliqua exercitation.</div>
-                                                    <div class="reviews-slider-item__user">Donald James</div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="reviews-slider__dots">
-                                    <ul class="uk-slideshow-nav uk-dotnav uk-flex uk-flex-center"></ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
             <div class="section-blog">
                 <div class="uk-background-muted">
                     <div class="uk-section uk-container">
@@ -510,24 +362,13 @@
                     </div>
                 </div>
             </div>
-            <div class="section-download">
-                <div class="uk-section uk-container">
-                    <div class="download-box">
-                        <div class="download-box__img"><img src="assets/img/img-download.png" alt="img-download"></div>
-                        <div class="download-box__inner">
-                            <div class="download-box__title">Download Our App</div>
-                            <div class="download-box__text">Are you driving today and have a free seat to offer in<br> your car or you traveling and need a lift to destination,<br> <b>Let’s GetRider</b>.</div>
-                            <div class="download-box__btn"><a href="#!"><img src="assets/img/google.png" alt="google"></a><a href="#!"><img src="assets/img/apple.png" alt="apple"></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </main>
         <footer class="page-footer">
             <div class="uk-container">
                 <div class="page-footer__inner">
                     <div class="page-footer__logo">
-                        <div class="logo"><a class="logo__link" href="https://pro-theme.com/"><img class="logo__img" src="assets/img/logo-white.png" alt="GetRider"></a></div>
+                        <div class="logo"><a class="logo__link" href="https://pro-theme.com/"><img class="logo__img" style="width: 30%" src="assets/img/logo.png" alt="GetRider"></a></div>
                     </div>
                     <div class="page-footer__text">
                         <p>Eorem ipsum dolor sit amet consectetur adipisicing elit edolore magna<br> aliqua ut enim ad minim veniam quis aliquip consequat</p>
@@ -541,7 +382,7 @@
                             <li><a href="#!"><i class="fas fa-rss"></i></a></li>
                         </ul>
                     </div>
-                    <div class="page-footer__copy"> <span>(c) 2021 All rights reserved.</span></div>
+                    <div class="page-footer__copy"> <span>(c) 2024 All rights reserved.</span></div>
                 </div>
             </div><!-- Additional blocks-->
             <div id="offcanvas" data-uk-offcanvas="overlay: true">
@@ -571,7 +412,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="uk-margin"><a class="uk-button uk-button-danger uk-width-1-1" href="tel:3457008800"> <img src="assets/img/call.svg" alt="call" data-uk-svg><span>+345 700 8800</span></a></div>
+                    <div class="uk-margin"><a class="uk-button uk-button-danger uk-width-1-1" href="tel:3457008800"> <img src="assets/img/logo.png" alt="call" data-uk-svg><span>+345 700 8800</span></a></div>
                 </div>
             </div>
             <div class="uk-flex-top" id="callback" data-uk-modal="">
